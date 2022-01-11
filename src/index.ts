@@ -13,10 +13,10 @@ let producto1:string = "Azucar";
 
 //Precio articulos
 let precioArticulo1:number = 10.20;
-  let precioArticulo2:number = 25.00;
-    let precioArticulo3:number = 90.00;
+  let precioArticulo2:number = 25.50;
+    let precioArticulo3:number = 90.01;
       let precioArticulo4:number = 55.71;
-        let precioArticulo5:number = 18.00;
+        let precioArticulo5:number = 18.30;
           let precioArticulo6:number = 71.05;
 
 //Stock
