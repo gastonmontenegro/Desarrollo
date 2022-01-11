@@ -13,7 +13,7 @@ let producto6:string = "Yogurt";
 
 //Precio articulos
 let precioArticulo1:number = 10;
-  let precioArtiulo2:number = 25;
+  let precioArticulo2:number = 25;
     let precioArticulo3:number = 90;
       let precioArticulo4:number = 55;
   let precioArticulo5:number = 18;
@@ -35,4 +35,4 @@ console.log("Mercado:", nombreSupermercado);
   console.log("Producto:"producto5, "Precio $"precioArticulo5, "unidades:"stock5);
 console.log("Producto:"producto6, "Precio $"precioArticulo6, "unidades:"stock6);
 
-//Soy nuevo y éste es mi primer ejercicio
+//Soy nuevo y éste es mi primer ejercicio.
