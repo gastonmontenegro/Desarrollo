@@ -12,12 +12,12 @@ let producto1:string = "Azucar";
           let producto6:string = "Yogurt";
 
 //Precio articulos
-let precioArticulo1:number = 10;
-  let precioArticulo2:number = 25;
-    let precioArticulo3:number = 90;
-      let precioArticulo4:number = 55;
-        let precioArticulo5:number = 18;
-          let precioArticulo6:number = 71;
+let precioArticulo1:number = 10.20;
+  let precioArticulo2:number = 25.00;
+    let precioArticulo3:number = 90.00;
+      let precioArticulo4:number = 55.71;
+        let precioArticulo5:number = 18.00;
+          let precioArticulo6:number = 71.05;
 
 //Stock
 let stock1:number = 100;
@@ -38,7 +38,10 @@ console.log("Mercado:", nombreSupermercado);
 
 //Compra de producto
 console.log("=== COMPRA ===")
-  console.log("Articulo:"producto6,"-- Precio $",precioArticulo6, "-- Stock Restante:"stock6 - 1, "unid.");
-    console.log("Articulo:"producto6,"-- Precio $",precioArticulo6, "-- Stock Restante:"stock6 - 2,"unid.");
-      console.log("Articulo:"producto4,"-- Precio $",precioArticulo4, "-- Stock Restante:"stock4 - 1,"unid.");
-        console.log("Total $", precioArticulo6 * 2 + precioArticulo4);
+  console.log("Articulo 1:"producto6,"* Precio $",precioArticulo6);
+  console.log("Articulo 2:"producto6,"* Precio $",precioArticulo6);
+  console.log("Articulo 3:"producto4,"* Precio $",precioArticulo4,);
+    console.log("Total Compra $", precioArticulo6 * 2 + precioArticulo4);
+    console.log("==============");
+      console.log("Stock Restante", producto6,":", stock6 - 2,"unidades");
+      console.log("Stock Restante", producto4,":", stock4 - 1,"unidades");
