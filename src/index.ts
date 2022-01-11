@@ -38,9 +38,9 @@ console.log("Mercado:", nombreSupermercado);
 
 //Compra de producto
 console.log("=== COMPRA ===")
-  console.log("Articulo 1:"producto6,"* Precio $",precioArticulo6);
-  console.log("Articulo 2:"producto6,"* Precio $",precioArticulo6);
-  console.log("Articulo 3:"producto4,"* Precio $",precioArticulo4,);
+  console.log("Articulo 1:"producto6,"$",precioArticulo6);
+  console.log("Articulo 2:"producto6,"$",precioArticulo6);
+  console.log("Articulo 3:"producto4,"$",precioArticulo4,);
     console.log("Total Compra $", precioArticulo6 * 2 + precioArticulo4);
     console.log("==============");
       console.log("Stock Restante", producto6,":", stock6 - 2,"unidades");
