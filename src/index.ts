@@ -4,12 +4,12 @@
 let nombreSupermercado:string = "El Camino";
 
 //Articulos
-  let producto1:string = "Azucar";
-    let producto2:string = "Te";
-      let producto3:string = "Aerosol";
-        let producto4:string = "Harina";
-          let producto5:string = "Leche";
-            let producto6:string = "Yogurt";
+let producto1:string = "Azucar";
+  let producto2:string = "Te";
+    let producto3:string = "Aerosol";
+      let producto4:string = "Harina";
+        let producto5:string = "Leche";
+          let producto6:string = "Yogurt";
 
 //Precio articulos
 let precioArticulo1:number = 10;
