@@ -5,7 +5,7 @@ let aumentoSueldo : number;
 switch (true) {
   case sueldo > 0 && sueldo <= 15000:
     aumentoSueldo = sueldo * 0.2;
-    console.log(`Su sueldo actual es ${sueldo}, su aumento es de ${aumentoSueldo} pesos`);
+    console.log(`El aumento de su Sueldo es del 20%, + ${aumentoSueldo} pesos`);
    break;
   case sueldo >= 15001 && sueldo <= 20000:
     aumentoSueldo = sueldo * 0.1;
