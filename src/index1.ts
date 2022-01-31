@@ -1,5 +1,5 @@
 // Ejercicio Sueldos
-let sueldo = Number(prompt(`Ingrese Sueldo`));
+/*let sueldo = Number(prompt(`Ingrese Sueldo`));
 let aumentoSueldo : number;
 
 switch (true) {
@@ -18,4 +18,4 @@ switch (true) {
     case sueldo > 25000:
     console.log("Su sueldo no tiene aumento");
     break;
-}
+}*/

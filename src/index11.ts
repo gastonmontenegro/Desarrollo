@@ -20,8 +20,41 @@ console.log(
   `Nuestros productos disponibles son  ${stock1} ${producto1}, cuesta ${precio1} cada uno, ${stock2} ${producto2}, cuesta ${precio2} cada uno, ${stock3} ${producto3}, cuesta ${precio3} cada uno.`
 );
 let compra1: number = Number(prompt(`cuantas ${producto1} desea llevar?`));
+while (compra1 <= 0 && compra1 >= stock1) {
+  console.log("numero invalido");
+  compra1 = Number(prompt(`cuantas ${producto1} desea llevar?`));
+}
 let compra2: number = Number(prompt(`cuantas ${producto2} desea llevar?`));
+while (compra2 <= 0 && compra2 >= stock2) {
+  console.log("numero invalido");
+  compra2 = Number(prompt(`cuantas ${producto2} desea llevar?`));
+}
 let compra3: number = Number(prompt(`cuantas ${producto3} desea llevar?`));
+while (compra3 <= 0 && compra3 >= stock3) {
+  console.log("numero invalido");
+  compra3 = Number(prompt(`cuantas ${producto3} desea llevar?`));
+}
+
+let limiteInf: number;
+let limiteSup: number;
+let suma: number = 0;
+
+if (limiteInf =>1  && limiteSup <= stock1) {
+  limiteSup = 1;
+  limiteInf = stock1;
+} else if (limiteSup => stock1 && limiteInf <=1) {
+  limiteInf = 1;
+  limiteSup = stock1;
+} else {
+  limiteSup = 1;
+  limiteInf = stock1;
+}
+for (let contador: number = limiteInf; contador <= limiteSup; contador++) {
+  suma = suma + contador;
+}
+console.log(
+  `La cantidad solicitada de ${producto1}, excede la cantidad de ${suma}`
+);
 
 let calculo1: number = precio1 * compra1;
 let calculo2: number = precio2 * compra2;
@@ -30,21 +63,6 @@ let precioTotal: number = calculo1 + calculo2 + calculo3;
 let stockRestante1: number = stock1 - compra1;
 let stockRestante2: number = stock2 - compra2;
 let stockRestante3: number = stock3 - compra3;
-
-while (compra1 <= 0) {
-  console.log("numero invalido");
-  compra1 = Number(prompt(`cuantas ${producto1} desea llevar?`));
-}
-
-while (compra2 <= 0) {
-  console.log("numero invalido");
-  compra2 = Number(prompt(`cuantas ${producto2} desea llevar?`));
-}
-
-while (compra3 <= 0) {
-  console.log("numero invalido");
-  compra3 = Number(prompt(`cuantas ${producto3} desea llevar?`));
-}
 
 if (compra1 > stock1 || compra2 > stock2 || compra3 > stock3) {
   console.log(`no tenemos stock suficiente para su pedido, intente de vuelta`);
