@@ -40,7 +40,7 @@ let limiteSup: number;
 let suma: number;
 
 if ((limiteInf > 0 && limiteSup <= compra1, compra2, compra3)) {
-  limiteSup = 1;
+  limiteSup = 0;
   (limiteInf = compra1), compra2, compra3;
 } else if (((limiteSup) => compra1, compra2, compra3 && limiteInf < 0)) {
   limiteInf = 0;
