@@ -76,3 +76,4 @@ if (compra1 > stock1 || compra2 > stock2 || compra3 > stock3) {
   );
   console.log("Gracias!, vuelvan prontos...");
 }
+*/
